@@ -1,0 +1,11 @@
+#root {
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

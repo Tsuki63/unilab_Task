@@ -1,0 +1,35 @@
+.filterWindow {
+  width: 297px;
+  height: 295px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  margin: 82px auto;
+  margin-left: 15px;
+  display: flex;
+  justify-content: left;
+  border-radius: 10px;
+}
+
+.filterWindow ul {
+  text-align: left;
+}
+.filterWindow li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.filter_status li {
+  max-height: 0;
+  visibility: hidden;
+}
+.filter_sex li {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.open li {
+  max-height: 200px;
+  visibility: visible;
+  transition: all 0.45s ease-in;
+}
