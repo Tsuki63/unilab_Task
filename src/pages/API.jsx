@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Api.css";
+import "./API.css";
 import Pagination from "../components/Pagination";
 
 export default function API() {
