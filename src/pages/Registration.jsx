@@ -45,7 +45,13 @@ export default function Registration() {
           <label htmlFor="photo">
             <p>add a photo</p>
           </label>
-          <input type="file" name="photo" id="photo" onChange={handleChange} />
+          <input
+            type="file"
+            name="photo"
+            id="photo"
+            accept="image/png, image/gif, image/jpeg"
+            onChange={handleChange}
+          />
 
           <label className="registrationForImage" htmlFor="photo">
             <img
